@@ -6,7 +6,7 @@ import axios from 'axios';
 
 function Agencije() {
     const [agencije,setAgencije] = useState([]); 
-
+    
     useEffect(() => {
         axios.get('http://localhost:8000/api/agencija_za_nekretnine').then(res => {
             console.log('Rez: ' + JSON.stringify(res))
@@ -23,6 +23,7 @@ function Agencije() {
             {prikazAgencija}
         </div>
     ); 
+
 }
 
 
