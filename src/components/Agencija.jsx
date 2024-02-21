@@ -12,6 +12,7 @@ function Agencija(props) {
                 <img className="img-fluid w-10"
                  src="../slike/slika1.png" 
                  alt='Lab' /> 
+                 #
             </div>
             <div className="col-7 col-sm-8">
                 <div className="card-body">
